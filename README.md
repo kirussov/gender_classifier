@@ -10,6 +10,9 @@ This project is a gender classification model based on naive logistic regression
 - Considers name length and number of vowels
 - Can be retrained with different datasets to adapt to various nationalities
 
+## Achieved results
+- On custom datasets and a part of original dataset average achieved accuracy is 99.5% (due to strong patterns commonly appeared in names of nationalities of Kazakhstan) 
+
 ## Usage
 1. Prepare your csv file in format name, surname
 2. Make predictions:
