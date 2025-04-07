@@ -33,7 +33,7 @@ classifier.train(train_data)
 
 classifier.evaluate(test_data)
 
-if input("Would you like to save weights? (y\n)") == "y":
+if input("Would you like to save weights? (y/n)") == "y":
     classifier.save_weights("weights_evaluated.csv")
 
 if input("Would you like to generate weights from the whole dataset without evaluation? (y/n)") == "y":
